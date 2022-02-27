@@ -1,9 +1,9 @@
 import React from "react";
-import ResponsiveAppBar from "./ResponsiveAppBar";
-import Footer from "./footer";
-import ProductCard from "./ProductCard";
-import { Grid } from "@mui/material";
-import ImageSlider from "./ImageSlider";
+// import ResponsiveAppBar from "./ResponsiveAppBar";
+
+
+
+
 import CardSlider from "./CardSlider"
 
 let places = [
@@ -26,8 +26,8 @@ image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-1.
 const App = () => {
     return (
         <div>
-            <ResponsiveAppBar />
-            <ImageSlider/>
+
+
             <div className="header_optionLineTwo">
                
                 <div className="header_optionLineThree">
@@ -44,7 +44,7 @@ const App = () => {
                 
 
             </div>
-            <Footer/>
+
         </div>
     );
 }
